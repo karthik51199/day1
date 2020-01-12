@@ -1,5 +1,7 @@
-n = gets.to_i
+i = 0
 
-for i in (1..n)
+loop do # do here is mandatory
 puts i
-end
+i+=1
+break if i>6
+end 
